@@ -1,0 +1,382 @@
+body {
+  background-image: url("./image/bgc.png");
+  color:white;
+}
+
+h1{
+    font-family: Trajan, serif;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+h2{
+    font-family: Bodoni , sans-serif ;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+h3{
+  font-family: Trajan, serif;
+  font-size: 18px;
+  text-decoration: underline;
+
+}
+
+div.banner{
+  background-color: #333333;
+  width: 1000px;
+  border: 5px solid black;
+  padding: 50px;
+  margin: auto;
+  font-size: 18px;
+}
+
+div{
+  background-color: #333333;
+  width: 1000px;
+  border: 5px solid black;
+  padding: 50px;
+  margin: auto;
+  font-size: 18px;
+}
+
+#title {
+    -webkit-text-stroke: 1px black;
+    font-family: sans; color: white;
+}
+
+
+nav.menu{
+	background-color: #333;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+	text-align:center;
+	font-size: 30px;
+  overflow: hidden;
+  color: white;
+}
+
+a {
+  color: white;
+ }
+
+a a:hover:not(.active) {
+  background-color: #111;
+}
+
+a a:hover {
+  background-color: cyan;
+}
+
+table, th {
+  color: black;
+  border: 1px solid white;
+  border-collapse: collapse;
+  border-spacing: 15px;
+  text-align: left;
+}
+
+table{
+    border-spacing: 30px;
+
+}
+
+.ocean{
+  background-color: #4dc8e9;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+.white{
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+img{
+	float: right; 
+}
+
+table.regular-data {
+	font-size : 92%;
+	border-collapse : collapse;
+	empty-cells : show;
+	margin : 1em 0;
+	border : 1px solid #aaa;
+	background-color: #fff;
+}
+table.regular-data caption {
+	text-align : left;
+	padding-bottom : 2px;
+	margin-bottom : 0;
+}
+/* regular-data, all cells */
+table.regular-data th, table.regular-data td {
+	border-left : 1px solid #999;
+	/*background-color : #fff;*/
+	margin : 0;
+}
+table.regular-data th {
+	padding: 1px 4px;
+}
+table.regular-data td {
+	padding: 1px 4px;
+	white-space : nowrap;
+}
+table.regular-data p {
+	margin : 0;
+	line-height: 100%;
+}
+/* regular-data, head cells */
+table.regular-data thead th {
+	background: #dddddd;
+	text-align : center;
+	vertical-align : bottom;
+	border-bottom : 1px solid #999;
+}
+
+/* regular-data, body cells */
+table.regular-data tbody th {
+	text-align : left;
+	vertical-align : middle;
+	white-space : nowrap;
+	border-bottom : 1px solid #999;
+}
+table.regular-data tbody td {
+	text-align : right;
+	vertical-align : middle;
+	border-bottom : 1px solid #999;
+}
+table.regular-data tbody td.text {
+	text-align : left;
+}
+
+/* Grey alt stripes
+table.regular-data tbody tr.odd th {
+	background: #F4F4F4;
+}
+table.regular-data tbody tr.even th {
+	background: #ebebeb;
+}
+table.regular-data tbody tr.odd td {
+	background: #ffffff;
+}
+table.regular-data tbody tr.even td {
+	background: #F4F4F4;
+}
+*/
+/* Blue alternating stripes */
+table.regular-data tbody tr.odd th {
+	background: #eee; /* light stripe header */
+}
+table.regular-data tbody tr.even th {
+	background: #DBEAFF; /* dark stripe */
+}
+table.regular-data tbody tr.odd td {
+	background: #ffffff; /* white stripe */
+}
+table.regular-data tbody tr.even td {
+	background: #EEF4FF; /* light stripe */
+}
+
+/* regular-data, foot cells */
+table.regular-data tfoot td , table.regular-data tfoot th {
+	text-align : left;
+	border-top : 1px solid #999;
+}
+/* END REGULAR DATA TABLE */
+
+
+/* REGULAR TEXT TABLE */ 
+
+table.regular-text {
+	font-size : 92%;
+	border : 1px solid #aaa;
+	border-collapse : collapse;
+	empty-cells : show;
+	margin : 1em 0;
+}
+table.regular-text caption {
+	
+	text-align : left;
+	padding-bottom : 2px;
+	margin-bottom : 0;
+	color : #660000;	
+}
+table.regular-text th, table.regular-text td {
+	border : 1px solid #aaa;
+	background-color : #fff;
+	margin : 0;
+}
+table.regular-text th {
+	padding: 4px;
+}
+table.regular-text td {
+	padding: 4px;
+}
+
+table.regular-text p {
+	margin : 0;
+	line-height: 100%;
+}
+table.regular-text td.greenbar {
+	background-color : #e7f1d7;
+}
+table.regular-text thead th {
+	background : #EBEBDA;
+	text-align : center;
+	vertical-align : bottom;
+}
+table.regular-text tbody th {
+	background-color : #eee;
+	text-align : left;
+	vertical-align : middle;
+	mso-number-format:\@; /* Format all numbers as text when copying to Excel */	
+}
+table.regular-text tbody td {
+	mso-number-format:\@; /* Format all numbers as text when copying to Excel */
+}
+table.regular-text td.footnotes {
+	text-align : left;
+}
+table.regular-text td.endnotes {
+	text-align : left;
+}
+/* END REGULAR TEXT TABLE */
+
+/* REGULAR TABLE */
+
+table.regular {
+	width : 96%;
+	background-color : #fff;
+	border : 1px solid #aaa;
+	font-family : tahoma, arial, sans-serif;
+
+	border-collapse : collapse;
+	empty-cells : show;
+	margin: 1em 0;
+	
+}
+table.regular caption {
+	text-align : left;
+	padding-bottom : 2px;
+	margin-bottom : 0;
+	color : white;
+}
+table.regular p {
+	margin: 0 !important;
+	line-height: 1.5em;	
+}
+table.regular th, table.regular td {
+	border: 1px solid #aaa;	
+	background-color : #fff;
+	margin: 0;
+}
+table.regular th {
+	padding: 2px 4px 4px 4px;
+}
+table.regular td {
+	padding: 0px 2px 2px 2px;
+}
+table.regular td.footnotes,
+table.regular td.endnotes {
+	padding: 4px;
+	text-align : left;
+}
+table.regular td.footnotes p,
+table.regular td.endnotes p {
+	line-height: 1.5em;
+}
+table.regular .footnotestitle {
+	font-weight: bold;
+}
+
+table.regular thead th {
+	background: #dddddd;
+	text-align : center;
+	vertical-align : bottom;
+}
+table.regular tbody th {
+	background-color : #eee; /* light stripe header(same as dark stripe) */
+	text-align : left;
+	vertical-align : middle;
+}
+table.regular tbody td {
+	text-align : right;
+	background-color: #fff; /* light stripe */
+}
+table.regular tbody tr.greenbar th {
+	background-color : #DBEAFF; /* dark stripe header */
+}
+table.regular tbody tr.greenbar td {
+	background-color : #EEF4FF; /* dark stripe */
+}
+table.regular td.footnotes {
+	text-align : left;
+}
+table.regular td.endnotes {
+	text-align : left;
+}
+table.regular td.section {
+	background-color : #d8d8d8;
+	text-align : center;
+	font-weight : bold;
+}
+table.regular td.section2 {
+	background-color : #d8d8d8;
+}
+table.regular img.dinosaur {
+	vertical-align : middle;
+}
+table.regular tbody tr.sep {
+	padding-top : 2em;
+}
+table.regular tbody tr.sep td {
+	height : 0.4em;
+	background-color : #eaeaea;
+}
+table.regular td.greenbar {
+	background-color : #E7F1D7;
+}
+table.regular tr.menutable {
+	text-align : left;
+}
+table.menutable tbody th {
+	text-align : left;
+	vertical-align : middle;
+}
+table.regular tbody tr.highlight th {
+	background-color : #DFF3C9;
+}
+table.regular tbody tr.highlight td {
+	background-color : #EDF8E0;
+}
+table.regular tbody tr.spformat2 th {
+	background-color : #FFFFCC;
+}
+table.regular tbody tr.spformat2 td {
+	background-color : #FFFFDD;
+}
+table.regular tbody tr.spformat3 th {
+	background-color : #D5D0E8;
+}
+table.regular tbody tr.spformat3 td {
+	background-color : #E3E0EF;
+}
+
+table.regular span.footnoteRefs a, 
+table.regular tfoot tr.footnotes td.footnotes p.footnotes a[id$=".p"] { 
+	text-transform: uppercase; 
+	} 
+table.regular tfoot tr.footnotes td.footnotes p.footnotes a[id^="anch"] {
+	text-transform: none;
+	 }
+
+#link{
+  color:blue;
+}
